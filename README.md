@@ -2,7 +2,7 @@
   
 # Milestone 1 Proposal
 
-## Team members: Peitong Shi, Zhiyang Cheng, Yusen Ma
+## Team members: Peitong Shi, Zhiyang Cheng, Yusen Ma，Dalu Li
 ### Front end: 
 ### Back end:
 
