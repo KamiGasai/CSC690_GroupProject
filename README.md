@@ -15,7 +15,7 @@
    1. Users shall be able to browse all the quiz question and answer, but have no access to Database. (8 - 10 hrs)
    
    2. Users shall be able to sign up, login in, log out. Username and password will be stored in DB and encrypted. 
-   > 2.1 UI  (3 - 6 hrs)
+   > 2.1 UI  (3 - 6 hrs) </br>
    > 2.2 Database (10 - 14 hrs) (including setting up)
    
    3. Users shall be able to check the question he/she already finished/remembered. (3 - 6 hrs)
