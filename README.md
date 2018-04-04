@@ -8,8 +8,8 @@
 
 
 
-### Topic: TBD (Qizz/Test app)
- 
+## Project Name: TBD (Qizz/Test app) Type: Quizlet
+
 #### Must have features:
    
    1. Users shall be able to browse all the quiz question and answer, but have no access to Database.
