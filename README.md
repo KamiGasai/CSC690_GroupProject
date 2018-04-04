@@ -36,4 +36,4 @@
    
    
 #### Basic wire-frames for main feature: 
-[a relative link](Mockup.jpg) (Peitong Shi)
+[Mockup](Mockup.jpg) (Peitong Shi)
