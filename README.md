@@ -13,7 +13,7 @@
 #### Must have features:
    
    1. Users shall be able to browse all the quiz question and answer, but have no access to Database.(8 - 10 hrs)**（Front）**
-      
+   
    2. Users shall be able to sign up, login in, log out. Username and password will be stored in DB and encrypted. </br>
    > 2.1 UI  (3 - 6 hrs)**（Front）** </br> 
    > 2.2 Database (10 - 14 hrs) (including setting up) **（Back）**</br>
