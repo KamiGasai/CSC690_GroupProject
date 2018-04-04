@@ -8,7 +8,7 @@
 
 
 
-## Project Name: TBD (Qizz/Test app) Type: Quizlet
+## Project Name: TBD (Quiz/Test app) Type: Quizlet
 
 #### Must have features:
    
