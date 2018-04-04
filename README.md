@@ -1,4 +1,4 @@
-# CSC656 Group Project
+# CSC690 Group Project
   
 # Milestone 1 Proposal
 
