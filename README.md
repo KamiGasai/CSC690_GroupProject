@@ -3,8 +3,8 @@
 # Milestone 1 Proposal
 
 ## Team members: Peitong Shi (Patrick), Zhiyang Cheng(Andrew), Yusen Ma(Even), Dalu Li
-### Front end: 
-### Back end:
+### Front end: Yusen Ma, Dalu Li
+### Back end: Peitong Shi, ZhiYang Cheng
 
 
 
