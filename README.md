@@ -40,11 +40,17 @@
 #### Work Assign for each view
 
    1. Log in, and Sign up views. (Peitong Shi)
+   
    2. Welcome view
+   
    3. Catagory view, and ADD topic view
+   
    4. Specific topic view
+   
    5. Question and anwser view (test view)
+   
    6. Browse questions of specific topic view (edit question, delete question...etc)
+   
    
 #### Basic wire-frames for main feature: 
 [Mockup](Mockup.jpg) (Peitong Shi)
