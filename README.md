@@ -40,13 +40,14 @@
 #### Work Assign for each view
 
 ##### 1. Log in, and Sign up views. (Peitong Shi)
-     
+
 ##### 2. Welcome view
-   
+
 ##### 3. Catagory view, and ADD topic view
-   
+
 ##### 4. Specific topic view
-   
+######     Everytime a new topic is added, it adds to database
+
 ##### 5. Question and anwser view (test view)
 ######     This View should have a count down
 
