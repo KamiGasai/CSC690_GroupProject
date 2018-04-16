@@ -38,8 +38,7 @@
    
    
 #### Work Assign for each view
-
-   1. Log in, and Sign up views. (Peitong Shi)
+   1. Log in, and Sign up views. (Peitong Shi)
    
    2. Welcome view
    
