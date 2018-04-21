@@ -71,7 +71,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0JJ-Hc-7jm">
                                 <rect key="frame" x="67" y="451" width="78" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99542584199999995" green="0.51936610067276467" blue="0.078673741992497645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.22147951787380069" green="0.99542584199999995" blue="0.13212185599152973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Sign">
@@ -84,7 +84,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5or-Z4-Dgh">
                                 <rect key="frame" x="231" y="451" width="78" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.22147951787380069" green="0.99542584199999995" blue="0.13212185599152973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.21486941521256872" green="0.30140961487525547" blue="0.99542584199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.99542584199999995" green="0.98942110473433353" blue="0.96821450892799299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -192,7 +192,7 @@
         <!--View Controller-->
         <scene sceneID="RSe-QN-DSk">
             <objects>
-                <viewController id="pd1-DR-QNq" customClass="ViewController" customModule="Final_Project_test_centre_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pd1-DR-QNq" customClass="ViewController" customModule="letsquizz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sxQ-0x-s8o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
