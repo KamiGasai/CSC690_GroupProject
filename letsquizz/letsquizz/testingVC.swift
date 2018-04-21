@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class testingVC: UIViewController {
     let question = Model()
     
     
@@ -70,7 +70,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         questionTitle.text = question.questions[question.numberOfAnswered].questionTitle
-        numberOfCurrentQuestion.text = "Qusetion " + String(question.numberOfAnswered + 1)
+        numberOfCurrentQuestion?.text = "Qusetion " + String(question.numberOfAnswered + 1)
         answer1Title.text = question.questions[question.numberOfAnswered].answers[question.counter]
         question.counter += 1
         answer2Title.text = question.questions[question.numberOfAnswered].answers[question.counter]

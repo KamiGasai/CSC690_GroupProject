@@ -39,38 +39,37 @@
             </objects>
             <point key="canvasLocation" x="1076" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="kkx-DH-5Nq">
             <objects>
-                <viewController id="gV7-Qb-SCA" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" id="gV7-Qb-SCA" customClass="LoginVC" customModule="letsquizz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mc4-54-n2r">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LetsQuizz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXm-xv-sZO">
-                                <rect key="frame" x="16" y="71" width="343" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LetsQuizz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXm-xv-sZO">
+                                <rect key="frame" x="16" y="71" width="343" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="stH-aR-BsQ">
                                 <rect key="frame" x="41" y="318" width="293" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="CiR-UP-jD7">
                                 <rect key="frame" x="41" y="372" width="293" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0JJ-Hc-7jm">
                                 <rect key="frame" x="67" y="451" width="78" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" red="0.22147951787380069" green="0.99542584199999995" blue="0.13212185599152973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -83,26 +82,38 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5or-Z4-Dgh">
                                 <rect key="frame" x="231" y="451" width="78" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" red="0.21486941521256872" green="0.30140961487525547" blue="0.99542584199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.99542584199999995" green="0.98942110473433353" blue="0.96821450892799299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="gV7-Qb-SCA" eventType="touchUpInside" id="mNo-4y-RVi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iUT-mV-dZ5" firstAttribute="trailing" secondItem="zXm-xv-sZO" secondAttribute="trailing" constant="16" id="Bnd-HX-eKD"/>
+                            <constraint firstItem="zXm-xv-sZO" firstAttribute="leading" secondItem="iUT-mV-dZ5" secondAttribute="leading" constant="16" id="IZl-wI-Ots"/>
+                            <constraint firstItem="zXm-xv-sZO" firstAttribute="top" secondItem="iUT-mV-dZ5" secondAttribute="top" constant="51" id="TME-2p-P6s"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iUT-mV-dZ5"/>
                     </view>
+                    <connections>
+                        <outlet property="userNameTF" destination="stH-aR-BsQ" id="QGi-Kd-6mb"/>
+                        <outlet property="userPasswordTF" destination="CiR-UP-jD7" id="DLR-hq-h3J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1cd-iF-mY8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1781.5999999999999" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign UpVC-->
         <scene sceneID="oAC-hj-p55">
             <objects>
-                <viewController id="WdV-16-dFo" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpVC" id="WdV-16-dFo" customClass="SignUpVC" customModule="letsquizz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fek-ms-PRp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,6 +162,9 @@
                                 <state key="normal" title="Sign up">
                                     <color key="titleColor" red="0.98932689508031879" green="0.99542584199999995" blue="0.95727310596577053" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signUpButtonTapped:" destination="WdV-16-dFo" eventType="touchUpInside" id="eUS-0O-9nt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dc1-KP-klZ">
                                 <rect key="frame" x="67" y="519" width="78" height="34"/>
@@ -161,11 +175,20 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.95771987353292931" green="0.99542584199999995" blue="0.91331366882865672" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="WdV-16-dFo" eventType="touchUpInside" id="PuA-nu-DyW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="chw-yO-f9V"/>
                     </view>
+                    <connections>
+                        <outlet property="confirmPasswordTF" destination="egc-dZ-wZG" id="CQ4-cw-Ugv"/>
+                        <outlet property="emailTF" destination="DgZ-iA-q35" id="eOq-UR-VXb"/>
+                        <outlet property="userNameTF" destination="3bh-f7-40P" id="wAJ-aA-7XL"/>
+                        <outlet property="userPasswordTF" destination="esC-rS-zMR" id="LoQ-7H-PN0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cdy-ne-lm4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -189,10 +212,10 @@
             </objects>
             <point key="canvasLocation" x="231" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--TestingVC-->
         <scene sceneID="RSe-QN-DSk">
             <objects>
-                <viewController id="pd1-DR-QNq" customClass="ViewController" customModule="letsquizz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pd1-DR-QNq" customClass="testingVC" customModule="letsquizz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sxQ-0x-s8o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

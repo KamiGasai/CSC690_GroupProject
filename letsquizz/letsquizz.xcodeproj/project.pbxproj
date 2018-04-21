@@ -15,6 +15,8 @@
 		D297F959208AA8EE00ADEF81 /* letsquizzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297F958208AA8EE00ADEF81 /* letsquizzTests.swift */; };
 		D297F964208AB92000ADEF81 /* testingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297F963208AB92000ADEF81 /* testingVC.swift */; };
 		D297F966208AB9C500ADEF81 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297F965208AB9C500ADEF81 /* Model.swift */; };
+		D297F968208ACCCD00ADEF81 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297F967208ACCCD00ADEF81 /* LoginVC.swift */; };
+		D297F96A208AD02100ADEF81 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297F969208AD02100ADEF81 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		D297F95A208AA8EE00ADEF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D297F963208AB92000ADEF81 /* testingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingVC.swift; sourceTree = "<group>"; };
 		D297F965208AB9C500ADEF81 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D297F967208ACCCD00ADEF81 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D297F969208AD02100ADEF81 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				D297F943208AA8ED00ADEF81 /* AppDelegate.swift */,
 				D297F945208AA8ED00ADEF81 /* ViewController.swift */,
 				D297F947208AA8ED00ADEF81 /* Main.storyboard */,
+				D297F969208AD02100ADEF81 /* SignUpVC.swift */,
+				D297F967208ACCCD00ADEF81 /* LoginVC.swift */,
 				D297F965208AB9C500ADEF81 /* Model.swift */,
 				D297F963208AB92000ADEF81 /* testingVC.swift */,
 				D297F94A208AA8EE00ADEF81 /* Assets.xcassets */,
@@ -207,6 +213,8 @@
 				D297F946208AA8ED00ADEF81 /* ViewController.swift in Sources */,
 				D297F944208AA8ED00ADEF81 /* AppDelegate.swift in Sources */,
 				D297F966208AB9C500ADEF81 /* Model.swift in Sources */,
+				D297F96A208AD02100ADEF81 /* SignUpVC.swift in Sources */,
+				D297F968208ACCCD00ADEF81 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
