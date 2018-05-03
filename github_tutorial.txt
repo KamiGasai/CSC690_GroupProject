@@ -1,0 +1,14 @@
+
+
+1. mkdir dir
+2. cd dir
+3. run command "git init"
+4. git add remote origin http://xxxxxxxxx
+5. git pull origin master (git fetch)
+
+--------------
+
+6.git checkout -b branch_name (branch_name is your new branch on local)
+7.git add x.x/ git rm x.x
+8.git commit
+9.git push origin branch_name
