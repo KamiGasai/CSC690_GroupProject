@@ -49,7 +49,7 @@ class SignUpVC: UIViewController {
         view.addSubview(activityIndicator)
         
         
-        let api = "http://csfun.club/api/CreateUser.php?"
+        let api = "http://csfun.club/api/user/register"
         let requestURL = NSURL(string: api)
         let request = NSMutableURLRequest(url: requestURL! as URL)
         request.httpMethod = "POST"

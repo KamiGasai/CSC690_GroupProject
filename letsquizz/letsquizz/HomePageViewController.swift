@@ -1,0 +1,46 @@
+//
+//  HomePageViewController.swift
+//  letsquizz
+//
+//  Created by Peitong Shi on 5/3/18.
+//  Copyright © 2018 letsquizz. All rights reserved.
+//
+
+import UIKit
+import SwiftKeychainWrapper
+class HomePageViewController: UIViewController {
+    @IBOutlet weak var FullNameTF: UILabel!
+    
+    @IBAction func signOutButtonTapped(_ sender: Any) {
+        //print("sign out button tapped")
+        KeychainWrapper.standard.removeObject(forKey: "userName")
+
+        let LoginPage = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
+        let appDelegate = UIApplication.shared.delegate
+        appDelegate?.window??.rootViewController = LoginPage
+    }
+    
+    @IBAction func loadProfileButtonTapped(_ sender: Any) {
+       // print("load profile button tapped")
+        loadMemberProfile()
+    }
+    
+    func loadMemberProfile(){
+        let fullName: String! = KeychainWrapper.standard.string(forKey: "userName")
+        FullNameTF.text = FullNameTF.text! + "  \(fullName!)"
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+
+
+
+}
