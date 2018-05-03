@@ -59,7 +59,7 @@ class testingVC: UIViewController {
         super.viewDidLoad()
         question.randomlyOrderedAnswers = question.answerOrderRandomGenerator(Answers: question.questions[question.numberOfAnswered].answers)
         questionTitle.text = question.questions[question.numberOfAnswered].questionTitle
-        numberOfCurrentQuestion.text = "Qusetion " + String(question.numberOfAnswered + 1) + "/" + String(question.answers.count)
+        numberOfCurrentQuestion.text = "Question " + String(question.numberOfAnswered + 1) + "/" + String(question.answers.count)
         answer1Title.text = question.questions[question.numberOfAnswered].answers[question.counter]
         //        answer1Title.text = question.randomlyOrderedAnswers[question.counter]
         question.counter += 1
@@ -79,7 +79,13 @@ class testingVC: UIViewController {
     @IBAction func nextQuestion(_ sender: UIButton) {
         if (question.currentNumberOfQuestion == question.totalQuestionNumber - 1 ||
             (question.answersIndex[question.currentNumberOfQuestion] == -1)) {
+            let alert = UIAlertController(title: "", message: "Finish test?", preferredStyle: .alert)
+            let backAction = UIAlertAction(title: "Back", style: .default, handler: { _ in
+                // add your 
+            })
+            alert.addAction(backAction)
             
+            self.present(alert, animated: true, completion: nil)
         } else {
             question.currentNumberOfQuestion += 1
             if (question.currentNumberOfQuestion < question.numberOfAnswered) {

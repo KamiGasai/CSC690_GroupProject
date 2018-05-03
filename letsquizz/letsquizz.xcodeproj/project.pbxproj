@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D297F944208AA8ED00ADEF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297F943208AA8ED00ADEF81 /* AppDelegate.swift */; };
-		D297F946208AA8ED00ADEF81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297F945208AA8ED00ADEF81 /* ViewController.swift */; };
 		D297F949208AA8ED00ADEF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D297F947208AA8ED00ADEF81 /* Main.storyboard */; };
 		D297F94B208AA8EE00ADEF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D297F94A208AA8EE00ADEF81 /* Assets.xcassets */; };
 		D297F94E208AA8EE00ADEF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D297F94C208AA8EE00ADEF81 /* LaunchScreen.storyboard */; };
@@ -32,7 +31,6 @@
 /* Begin PBXFileReference section */
 		D297F940208AA8ED00ADEF81 /* letsquizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letsquizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D297F943208AA8ED00ADEF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D297F945208AA8ED00ADEF81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D297F948208AA8ED00ADEF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D297F94A208AA8EE00ADEF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D297F94D208AA8EE00ADEF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				D297F943208AA8ED00ADEF81 /* AppDelegate.swift */,
-				D297F945208AA8ED00ADEF81 /* ViewController.swift */,
 				D297F947208AA8ED00ADEF81 /* Main.storyboard */,
 				D297F969208AD02100ADEF81 /* SignUpVC.swift */,
 				D297F967208ACCCD00ADEF81 /* LoginVC.swift */,
@@ -210,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D297F964208AB92000ADEF81 /* testingVC.swift in Sources */,
-				D297F946208AA8ED00ADEF81 /* ViewController.swift in Sources */,
 				D297F944208AA8ED00ADEF81 /* AppDelegate.swift in Sources */,
 				D297F966208AB9C500ADEF81 /* Model.swift in Sources */,
 				D297F96A208AD02100ADEF81 /* SignUpVC.swift in Sources */,
