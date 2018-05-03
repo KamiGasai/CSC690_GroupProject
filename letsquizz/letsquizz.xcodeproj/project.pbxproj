@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52F470344AC762E42F56B6D1 /* Pods_letsquizzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769057C7BB4A4BD0523BCA14 /* Pods_letsquizzTests.framework */; };
+		83C8258A040B0A626A8656BF /* Pods_letsquizz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99146EB1AD7303E3B22FAE5 /* Pods_letsquizz.framework */; };
+		D23E4231209AF68200290694 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E4230209AF68200290694 /* HomePageViewController.swift */; };
 		D297F944208AA8ED00ADEF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297F943208AA8ED00ADEF81 /* AppDelegate.swift */; };
-		D297F946208AA8ED00ADEF81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297F945208AA8ED00ADEF81 /* ViewController.swift */; };
 		D297F949208AA8ED00ADEF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D297F947208AA8ED00ADEF81 /* Main.storyboard */; };
 		D297F94B208AA8EE00ADEF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D297F94A208AA8EE00ADEF81 /* Assets.xcassets */; };
 		D297F94E208AA8EE00ADEF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D297F94C208AA8EE00ADEF81 /* LaunchScreen.storyboard */; };
@@ -30,9 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0923DB636FB8D1E1E726271E /* Pods-letsquizzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letsquizzTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-letsquizzTests/Pods-letsquizzTests.release.xcconfig"; sourceTree = "<group>"; };
+		17B8B72CABFFD7BEE34CCF85 /* Pods-letsquizz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letsquizz.release.xcconfig"; path = "Pods/Target Support Files/Pods-letsquizz/Pods-letsquizz.release.xcconfig"; sourceTree = "<group>"; };
+		769057C7BB4A4BD0523BCA14 /* Pods_letsquizzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_letsquizzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90531DB85A89B9549CE02A93 /* Pods-letsquizz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letsquizz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-letsquizz/Pods-letsquizz.debug.xcconfig"; sourceTree = "<group>"; };
+		B99146EB1AD7303E3B22FAE5 /* Pods_letsquizz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_letsquizz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23E4230209AF68200290694 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		D297F940208AA8ED00ADEF81 /* letsquizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letsquizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D297F943208AA8ED00ADEF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D297F945208AA8ED00ADEF81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D297F948208AA8ED00ADEF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D297F94A208AA8EE00ADEF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D297F94D208AA8EE00ADEF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +51,7 @@
 		D297F965208AB9C500ADEF81 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D297F967208ACCCD00ADEF81 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D297F969208AD02100ADEF81 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		E24CE1039B8DF043441BDFF5 /* Pods-letsquizzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letsquizzTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-letsquizzTests/Pods-letsquizzTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C8258A040B0A626A8656BF /* Pods_letsquizz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,18 +67,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F470344AC762E42F56B6D1 /* Pods_letsquizzTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9BB7932FBD009DD8D2F5976 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90531DB85A89B9549CE02A93 /* Pods-letsquizz.debug.xcconfig */,
+				17B8B72CABFFD7BEE34CCF85 /* Pods-letsquizz.release.xcconfig */,
+				E24CE1039B8DF043441BDFF5 /* Pods-letsquizzTests.debug.xcconfig */,
+				0923DB636FB8D1E1E726271E /* Pods-letsquizzTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D297F937208AA8EC00ADEF81 = {
 			isa = PBXGroup;
 			children = (
 				D297F942208AA8ED00ADEF81 /* letsquizz */,
 				D297F957208AA8EE00ADEF81 /* letsquizzTests */,
 				D297F941208AA8ED00ADEF81 /* Products */,
+				A9BB7932FBD009DD8D2F5976 /* Pods */,
+				D4A67511B96901071649E21E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				D297F943208AA8ED00ADEF81 /* AppDelegate.swift */,
-				D297F945208AA8ED00ADEF81 /* ViewController.swift */,
 				D297F947208AA8ED00ADEF81 /* Main.storyboard */,
 				D297F969208AD02100ADEF81 /* SignUpVC.swift */,
 				D297F967208ACCCD00ADEF81 /* LoginVC.swift */,
@@ -95,6 +117,7 @@
 				D297F94A208AA8EE00ADEF81 /* Assets.xcassets */,
 				D297F94C208AA8EE00ADEF81 /* LaunchScreen.storyboard */,
 				D297F94F208AA8EE00ADEF81 /* Info.plist */,
+				D23E4230209AF68200290694 /* HomePageViewController.swift */,
 			);
 			path = letsquizz;
 			sourceTree = "<group>";
@@ -108,6 +131,15 @@
 			path = letsquizzTests;
 			sourceTree = "<group>";
 		};
+		D4A67511B96901071649E21E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B99146EB1AD7303E3B22FAE5 /* Pods_letsquizz.framework */,
+				769057C7BB4A4BD0523BCA14 /* Pods_letsquizzTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D297F95D208AA8EE00ADEF81 /* Build configuration list for PBXNativeTarget "letsquizz" */;
 			buildPhases = (
+				2932FFD01B596835B6A9DD50 /* [CP] Check Pods Manifest.lock */,
 				D297F93C208AA8ED00ADEF81 /* Sources */,
 				D297F93D208AA8ED00ADEF81 /* Frameworks */,
 				D297F93E208AA8ED00ADEF81 /* Resources */,
+				75F1278DBEA5200312D30E6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D297F960208AA8EE00ADEF81 /* Build configuration list for PBXNativeTarget "letsquizzTests" */;
 			buildPhases = (
+				5E39FB54368D1BA022C22771 /* [CP] Check Pods Manifest.lock */,
 				D297F950208AA8EE00ADEF81 /* Sources */,
 				D297F951208AA8EE00ADEF81 /* Frameworks */,
 				D297F952208AA8EE00ADEF81 /* Resources */,
@@ -204,14 +239,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2932FFD01B596835B6A9DD50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-letsquizz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E39FB54368D1BA022C22771 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-letsquizzTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F1278DBEA5200312D30E6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-letsquizz/Pods-letsquizz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-letsquizz/Pods-letsquizz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D297F93C208AA8ED00ADEF81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D297F964208AB92000ADEF81 /* testingVC.swift in Sources */,
-				D297F946208AA8ED00ADEF81 /* ViewController.swift in Sources */,
 				D297F944208AA8ED00ADEF81 /* AppDelegate.swift in Sources */,
+				D23E4231209AF68200290694 /* HomePageViewController.swift in Sources */,
 				D297F966208AB9C500ADEF81 /* Model.swift in Sources */,
 				D297F96A208AD02100ADEF81 /* SignUpVC.swift in Sources */,
 				D297F968208ACCCD00ADEF81 /* LoginVC.swift in Sources */,
@@ -372,6 +464,7 @@
 		};
 		D297F95E208AA8EE00ADEF81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90531DB85A89B9549CE02A93 /* Pods-letsquizz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -389,6 +482,7 @@
 		};
 		D297F95F208AA8EE00ADEF81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B8B72CABFFD7BEE34CCF85 /* Pods-letsquizz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -406,6 +500,7 @@
 		};
 		D297F961208AA8EE00ADEF81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24CE1039B8DF043441BDFF5 /* Pods-letsquizzTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -426,6 +521,7 @@
 		};
 		D297F962208AA8EE00ADEF81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0923DB636FB8D1E1E726271E /* Pods-letsquizzTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

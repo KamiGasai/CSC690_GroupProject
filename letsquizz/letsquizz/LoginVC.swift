@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftKeychainWrapper
 
 class LoginVC: UIViewController {
 
@@ -64,12 +65,18 @@ class LoginVC: UIViewController {
                     var userInfo: [String: Any]!
                     if let arrayObject: NSArray = parseJSON["user"] as? NSArray {
                         userInfo = arrayObject.firstObject as? [String: String]
-                        let userID = userInfo["user_name"]
-                        print(userID!)
-                        print ("Access token: \(String(describing:userID))")
+                        let userName = userInfo["user_name"] as? String
+                        let userID = userInfo["user_id"] as? String
+                        let saveuserNameSuccess: Bool = KeychainWrapper.standard.set(userName!, forKey: "userName")
+                        let saveuserIDSuccess: Bool = KeychainWrapper.standard.set(userID!, forKey: "userID")
+                        print("The userName save result: \(saveuserNameSuccess)")
+                        print("The userID save result:\(saveuserIDSuccess)")
+                        
+                        print(userName!)
+                        print ("Access token: \(String(describing:userName))")
                     
                         DispatchQueue.main.async {
-                            let homePage = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+                            let homePage = self.storyboard?.instantiateViewController(withIdentifier: "HomePageViewController") as! HomePageViewController
                             let appDelegate = UIApplication.shared.delegate
                             appDelegate?.window??.rootViewController = homePage
                         }
