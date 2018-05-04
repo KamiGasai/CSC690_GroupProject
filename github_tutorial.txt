@@ -14,6 +14,8 @@ Now, you have both local git repo and remote repo
 -------------------------------------------------
 当你要开发任何新功能 或者做任何修改
 
+*****8开始之前 请先确保你有最新的develop branch***************
+
 8. git checkout -b develop your_branch (here we create a new branch and copy everything in develop branch to your new branch
 9. (Now your are in "your_branch") make changes
 10. git pull origin develop (make sure develop branch has the newest commit)
@@ -26,4 +28,3 @@ Now, you have both local git repo and remote repo
 -------------------------------------------------
 Notice: Never touch master unless all group member agree and review all codes in develop branch.
 	
-在执行8时
