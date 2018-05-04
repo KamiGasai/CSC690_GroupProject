@@ -1,5 +1,27 @@
 
 
+
+
+*****Easiest way for developing in your branch and the correct way to push without making conflicts*****
+1. Make sure your master is always the newest by 
+	1.1 "git checkout develop" 
+	1.2 "git pull origin develop".
+2. Check out to your own branch, make it merge with master, then do work, then push.
+	2.1 "git checkout [-b] your_branch". (Add -b if you are creating a new branch. 
+	2.2 Merge your branch with your master(develop in this case) by "git pull origin develop"
+	2.3 Working.......(making changes, add new file, remove file)
+	2.4 Make sure you have the newest codes with master again(because someone might already commit to master during your work) by "git pull origin develop" (You are still in your_branch)
+	2.5 "git push origin your_branch". (Here push to your_branch, not master/develop)
+3. Go to Github website, project page, create new pull request (compare develop and your branch)
+
+4. Sit tight and wait for approval of pull request
+
+
+
+
+
+=====================================================
+
 如果你在创建一个新的project那么首先执行步骤 1 - 7, 否则从8开始
 
 1. mkdir myproject (创建一个文件夹名为myprojet)
