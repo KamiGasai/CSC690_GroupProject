@@ -1,0 +1,31 @@
+
+
+如果你在创建一个新的project那么首先执行步骤 1 - 7, 否则从8开始
+
+1. mkdir myproject (创建一个文件夹名为myprojet)
+2. cd myproject (进入文件夹 myproject)
+3. git init (initialize current directory to be a repo)
+4. git add remote origin http://xxxxxxxxxx
+5. make changes in directory, e.g. create a text file test.txt
+6. git add test.txt
+7. git push origin master
+
+Now, you have both local git repo and remote repo
+-------------------------------------------------
+当你要开发任何新功能 或者做任何修改
+
+*****8开始之前 请先确保你有最新的develop branch***************
+***** git checkout -b develop origin/develop 应该可以为你创建一个develop branch******
+
+8. git checkout -b develop your_branch (here we create a new branch and copy everything in develop branch to your new branch
+9. (Now your are in "your_branch") make changes
+10. git pull origin develop (make sure develop branch has the newest commit)
+11. git checkout develop
+12. git merge your_branch (merge your new feature in your_branch into develop branch)
+13. git push origin develop
+14. git branch -d your_branch (delete your branch)
+
+注意 在这个情况下 即便我们任何人在你开发的过程中 修改了develop, 在你完成你的工作之后，你执行step 10, 你的develop branch都是最新的（important, or there will be conflict). 此时运行step 12时，new feature in your_branch will be added into develop branch. 
+-------------------------------------------------
+Notice: Never touch master unless all group member agree and review all codes in develop branch.
+	
