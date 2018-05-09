@@ -111,8 +111,8 @@ class Model {
     }
     
     func loadingQA(fileName:String){
-            //let URL_SAVE_TEAM = "http://csfun.club/api/question/list"
-            let URL_SAVE_TEAM = "http://localhost/IOSWebService/api/question/list"
+            let URL_SAVE_TEAM = "http://csfun.club/api/question/list"
+//            let URL_SAVE_TEAM = "http://localhost/IOSWebService/api/question/list"
             //created NSURL
             let requestURL = NSURL(string: URL_SAVE_TEAM)
             
