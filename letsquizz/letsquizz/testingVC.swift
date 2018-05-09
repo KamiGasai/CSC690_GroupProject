@@ -3,7 +3,6 @@ import UIKit
 class testingVC: UIViewController {
     let question = Model()
     
-    
     @IBOutlet weak var questionTitle: UITextView!
     
     @IBOutlet weak var numberOfCurrentQuestion: UILabel!
