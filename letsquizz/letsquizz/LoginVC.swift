@@ -9,19 +9,20 @@
 import UIKit
 import SwiftKeychainWrapper
 
+
 class LoginVC: UIViewController {
 
-    @IBOutlet weak var userNameTF: UITextField! //username text field
+    @IBOutlet weak var userNameTF: UITextField!
     @IBOutlet weak var userPasswordTF: UITextField!
     
-    
+    @IBOutlet weak var signBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.addBackground()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

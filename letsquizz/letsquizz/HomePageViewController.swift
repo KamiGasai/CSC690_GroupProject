@@ -29,10 +29,10 @@ class HomePageViewController: UIViewController {
         let fullName: String! = KeychainWrapper.standard.string(forKey: "userName")
         FullNameTF.text = FullNameTF.text! + "  \(fullName!)"
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.addBackground()
     }
 
     override func didReceiveMemoryWarning() {
