@@ -96,12 +96,10 @@ class Model {
                 self.questions.append(question(questionTitle: questionTitle,
                                         rightAnswer: rightAnswer,
                                         answers: answerOptions))
-                /*
-                    print(questionTitle)
-                    print(answerOptions)
-                    print(rightAnswer)
-                    print("----------------")
-                **/
+                
+                questionTitle = ""
+                rightAnswer = ""
+                answerOptions.removeAll()
             }
             
             
