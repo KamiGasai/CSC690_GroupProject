@@ -32,7 +32,7 @@ class HomePageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.addBackground()
+        //self.addBackground()
     }
 
     override func didReceiveMemoryWarning() {
