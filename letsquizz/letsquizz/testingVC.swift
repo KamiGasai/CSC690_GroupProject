@@ -11,7 +11,7 @@ class testingVC: UIViewController {
     @IBAction func answer1(_ sender: UIButton) {
         question.answers[question.currentNumberOfQuestion] = answer1Title.text!
         question.answersIndex[question.currentNumberOfQuestion] = 1
-        answer1Title.backgroundColor = UIColor.cyan
+        answer1Title.backgroundColor = UIColor(red:0.00, green:0.70, blue:1.00, alpha:1.0)
         answer2Title.backgroundColor = UIColor.white
         answer3Title.backgroundColor = UIColor.white
         answer4Title.backgroundColor = UIColor.white
@@ -22,7 +22,7 @@ class testingVC: UIViewController {
         question.answers[question.currentNumberOfQuestion] = answer2Title.text!
         question.answersIndex[question.currentNumberOfQuestion] = 2
         answer1Title.backgroundColor = UIColor.white
-        answer2Title.backgroundColor = UIColor.cyan
+        answer2Title.backgroundColor = UIColor(red:0.00, green:0.70, blue:1.00, alpha:1.0)
         answer3Title.backgroundColor = UIColor.white
         answer4Title.backgroundColor = UIColor.white
     }
@@ -33,7 +33,7 @@ class testingVC: UIViewController {
         question.answersIndex[question.currentNumberOfQuestion] = 3
         answer1Title.backgroundColor = UIColor.white
         answer2Title.backgroundColor = UIColor.white
-        answer3Title.backgroundColor = UIColor.cyan
+        answer3Title.backgroundColor = UIColor(red:0.00, green:0.70, blue:1.00, alpha:1.0)
         answer4Title.backgroundColor = UIColor.white
     }
     
@@ -44,13 +44,15 @@ class testingVC: UIViewController {
         answer1Title.backgroundColor = UIColor.white
         answer2Title.backgroundColor = UIColor.white
         answer3Title.backgroundColor = UIColor.white
-        answer4Title.backgroundColor = UIColor.cyan
+        answer4Title.backgroundColor = UIColor(red:0.00, green:0.70, blue:1.00, alpha:1.0)
     }
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //self.addBackground()
+        
         question.randomlyOrderedAnswers = question.answerOrderRandomGenerator(Answers: question.questions[question.numberOfAnswered].answers)
         questionTitle.text = question.questions[question.numberOfAnswered].questionTitle
         numberOfCurrentQuestion.text = "Question " + String(question.numberOfAnswered + 1) + "/" + String(question.answers.count)
