@@ -15,6 +15,7 @@ class HomePageViewController: UIViewController {
         //print("sign out button tapped")
         KeychainWrapper.standard.removeObject(forKey: "userName")
 
+        
         let LoginPage = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
         let appDelegate = UIApplication.shared.delegate
         appDelegate?.window??.rootViewController = LoginPage
@@ -32,7 +33,7 @@ class HomePageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.addBackground()
+        self.addBackground()
     }
 
     override func didReceiveMemoryWarning() {
