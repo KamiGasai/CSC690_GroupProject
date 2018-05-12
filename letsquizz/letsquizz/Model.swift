@@ -12,11 +12,12 @@ class Model {
     var numberOfRight: Int
     var questions: [question]
     
-    var answers: [String] = ["", "", "", "", ""]
+    var answerSheet: [String] = ["", "", "", "", ""]
     var answersIndex: [Int] = [-1, -1, -1, -1, -1]
     var counter: Int = 0
     var currentNumberOfQuestion = 0
     var randomlyOrderedAnswers: [String] = []
+    var scores: Double = 0
     
     init() {
         totalQuestionNumber = 5
@@ -31,6 +32,18 @@ class Model {
         }
         
         
+    }
+    
+    func evaluateTestResult() -> Double {
+        var result: Double
+        var counter: Int = 0
+        for i in 0..<totalQuestionNumber {
+            if (answerSheet[i] == questions[i].rightAnswer) {
+                counter += 1
+            }
+        }
+        result = Double(counter)/Double(totalQuestionNumber)*100
+        return result
     }
     
     // save json into file
