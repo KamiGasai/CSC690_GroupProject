@@ -12,7 +12,8 @@ class CategoryVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.addBackground()
+        
         // Do any additional setup after loading the view.
     }
 

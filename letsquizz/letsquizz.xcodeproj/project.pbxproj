@@ -11,6 +11,7 @@
 		523E433020A278B200B1A5B8 /* UIBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E432F20A278B200B1A5B8 /* UIBGView.swift */; };
 		52F470344AC762E42F56B6D1 /* Pods_letsquizzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769057C7BB4A4BD0523BCA14 /* Pods_letsquizzTests.framework */; };
 		83C8258A040B0A626A8656BF /* Pods_letsquizz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99146EB1AD7303E3B22FAE5 /* Pods_letsquizz.framework */; };
+		B41DF7AD20A6B8A8004AD452 /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41DF7AC20A6B8A8004AD452 /* CategoryVC.swift */; };
 		D23E4231209AF68200290694 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E4230209AF68200290694 /* HomePageViewController.swift */; };
 		D297F944208AA8ED00ADEF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297F943208AA8ED00ADEF81 /* AppDelegate.swift */; };
 		D297F949208AA8ED00ADEF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D297F947208AA8ED00ADEF81 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		523E432F20A278B200B1A5B8 /* UIBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBGView.swift; sourceTree = "<group>"; };
 		769057C7BB4A4BD0523BCA14 /* Pods_letsquizzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_letsquizzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90531DB85A89B9549CE02A93 /* Pods-letsquizz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letsquizz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-letsquizz/Pods-letsquizz.debug.xcconfig"; sourceTree = "<group>"; };
+		B41DF7AC20A6B8A8004AD452 /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
 		B99146EB1AD7303E3B22FAE5 /* Pods_letsquizz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_letsquizz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23E4230209AF68200290694 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		D297F940208AA8ED00ADEF81 /* letsquizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letsquizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +116,7 @@
 			children = (
 				D297F943208AA8ED00ADEF81 /* AppDelegate.swift */,
 				D297F947208AA8ED00ADEF81 /* Main.storyboard */,
+				B41DF7AC20A6B8A8004AD452 /* CategoryVC.swift */,
 				D297F969208AD02100ADEF81 /* SignUpVC.swift */,
 				D297F967208ACCCD00ADEF81 /* LoginVC.swift */,
 				D297F965208AB9C500ADEF81 /* Model.swift */,
@@ -310,6 +313,7 @@
 				D297F964208AB92000ADEF81 /* testingVC.swift in Sources */,
 				30D4660F20A66EB2006FCB75 /* ResultVC.swift in Sources */,
 				D297F944208AA8ED00ADEF81 /* AppDelegate.swift in Sources */,
+				B41DF7AD20A6B8A8004AD452 /* CategoryVC.swift in Sources */,
 				523E433020A278B200B1A5B8 /* UIBGView.swift in Sources */,
 				D23E4231209AF68200290694 /* HomePageViewController.swift in Sources */,
 				D297F966208AB9C500ADEF81 /* Model.swift in Sources */,
