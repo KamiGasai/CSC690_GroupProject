@@ -167,7 +167,10 @@ class testingVC: UIViewController {
         guard let Temp = segue.destination as? ResultVC else {
             return
         }
-        Temp.answer.answerSheet = question.answerSheet
+        Temp.model.answerSheet = question.answerSheet
+        Temp.model.wrongQuestionsIndex = question.wrongQuestionsIndex
+        Temp.model.answersIndex = question.answersIndex
+        Temp.model.questions = question.questions
     }
     
     

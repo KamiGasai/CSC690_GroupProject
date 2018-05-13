@@ -18,6 +18,7 @@ class Model {
     var currentNumberOfQuestion = 0
     var randomlyOrderedAnswers: [String] = []
     var scores: Double = 0
+    var wrongQuestionsIndex: [Int] = []
     
     init() {
         totalQuestionNumber = 5
@@ -40,6 +41,8 @@ class Model {
         for i in 0..<totalQuestionNumber {
             if (answerSheet[i] == questions[i].rightAnswer) {
                 counter += 1
+            } else {
+                wrongQuestionsIndex.append(i)
             }
         }
         result = Double(counter)/Double(totalQuestionNumber)*100
