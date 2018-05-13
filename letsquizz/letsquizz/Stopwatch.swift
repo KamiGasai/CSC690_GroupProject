@@ -1,11 +1,18 @@
+//
+//  Stopwatch.swift
+//  letsquizz
+//
+//  Created by Dalu Li on 5/12/18.
+//  Copyright © 2018 letsquizz. All rights reserved.
+//
+
 import UIKit
 
-class CategoryVC: UIViewController {
+class Stopwatch: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.addBackground()
-        
+
         // Do any additional setup after loading the view.
     }
 
@@ -15,22 +22,6 @@ class CategoryVC: UIViewController {
     }
     
 
-    
-    
-    
-    
-    
-    
-    @IBAction func startDMVTest(_ sender: UIButton) {
-        performSegue(withIdentifier: "toTestingVC", sender: self)
-    }
-    
-    
-    
-    
-    
-    
-    
     /*
     // MARK: - Navigation
 
