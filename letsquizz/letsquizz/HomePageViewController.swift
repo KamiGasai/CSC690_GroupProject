@@ -31,6 +31,10 @@ class HomePageViewController: UIViewController {
         FullNameTF.text = FullNameTF.text! + "  \(fullName!)"
     }
     
+    @IBAction func startTest(_ sender: UIButton) {
+        performSegue(withIdentifier: "toCategoryVC", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.addBackground()
