@@ -1,11 +1,3 @@
-//
-//  CategoryVC.swift
-//  letsquizz
-//
-//  Created by Dalu Li on 5/11/18.
-//  Copyright © 2018 letsquizz. All rights reserved.
-//
-
 import UIKit
 
 class CategoryVC: UIViewController {
@@ -22,7 +14,11 @@ class CategoryVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func startCPATest(_ sender: UIButton) {
+        performSegue(withIdentifier: "toTestingVC", sender: self)
+    }
+    
+    
     /*
     // MARK: - Navigation
 
