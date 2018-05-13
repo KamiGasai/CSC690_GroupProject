@@ -1,8 +1,39 @@
 import UIKit
 
 class testingVC: UIViewController {
-    let question = Model()
+   
+    @IBOutlet weak var titlelabel: UILabel!
+    @IBOutlet weak var startbutton: UIButton!
+    @IBOutlet weak var pausebutton: UIButton!
     
+    var timer = Timer()
+    var counter = 0.0
+    var isRunning = false
+    
+    @IBAction func startButton(_ sender: UIButton) {
+        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(UpdateTimer), userInfo: nil, repeats: true)
+        startbutton.isEnabled = false
+        pausebutton.isEnabled = true
+        isRunning = true
+    }
+    @objc func UpdateTimer() {
+        counter += 0.1
+        titlelabel.text = String(format: "%.1f", counter)
+    }
+    
+    
+    @IBAction func pauseButton(_ sender: UIButton) {
+        
+        timer.invalidate()
+        startbutton.isEnabled = true
+        pausebutton.isEnabled = false
+        isRunning = false
+    }
+    
+    
+    
+    
+    let question = Model()
     @IBOutlet weak var questionTitle: UITextView!
     
     @IBOutlet weak var numberOfCurrentQuestion: UILabel!
@@ -52,6 +83,10 @@ class testingVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //self.addBackground()
+        
+        titlelabel.text = "\(counter)" //0.0
+        startbutton.isEnabled = true
+        pausebutton.isEnabled = false
         
         question.randomlyOrderedAnswers = question.answerOrderRandomGenerator(Answers: question.questions[question.numberOfAnswered].answers)
         questionTitle.text = question.questions[question.numberOfAnswered].questionTitle

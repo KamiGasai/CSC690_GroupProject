@@ -11,10 +11,11 @@ import SwiftKeychainWrapper
 class HomePageViewController: UIViewController {
     @IBOutlet weak var FullNameTF: UILabel!
     
+
     @IBAction func signOutButtonTapped(_ sender: Any) {
         //print("sign out button tapped")
         KeychainWrapper.standard.removeObject(forKey: "userName")
-
+        
         
         let LoginPage = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
         let appDelegate = UIApplication.shared.delegate
