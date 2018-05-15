@@ -101,7 +101,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXR-kc-zvw">
                                 <rect key="frame" x="326" y="37" width="33" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="825101_multimedia_512x512"/>
+                                <state key="normal" image="sign out"/>
                                 <connections>
                                     <action selector="signOutButtonTapped:" destination="HYT-vq-G1d" eventType="touchUpInside" id="0eV-hw-s6A"/>
                                 </connections>
@@ -644,7 +644,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="825101_multimedia_512x512" width="512" height="512"/>
         <image name="Button" width="300" height="300"/>
         <image name="CALLUS" width="200" height="200"/>
         <image name="CPA-Northville-Michigan" width="255" height="145"/>
@@ -654,5 +653,6 @@
         <image name="STUDY" width="200" height="200"/>
         <image name="TESTs" width="200" height="200"/>
         <image name="sat" width="187" height="151"/>
+        <image name="sign out" width="512" height="512"/>
     </resources>
 </document>
