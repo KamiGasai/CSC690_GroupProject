@@ -11,10 +11,12 @@ import SwiftKeychainWrapper
 class HomePageViewController: UIViewController {
     @IBOutlet weak var FullNameTF: UILabel!
     
+
     @IBAction func signOutButtonTapped(_ sender: Any) {
         //print("sign out button tapped")
         KeychainWrapper.standard.removeObject(forKey: "userName")
-
+        
+        
         let LoginPage = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
         let appDelegate = UIApplication.shared.delegate
         appDelegate?.window??.rootViewController = LoginPage
@@ -29,10 +31,14 @@ class HomePageViewController: UIViewController {
         let fullName: String! = KeychainWrapper.standard.string(forKey: "userName")
         FullNameTF.text = FullNameTF.text! + "  \(fullName!)"
     }
+    
+    @IBAction func startTest(_ sender: UIButton) {
+        performSegue(withIdentifier: "toCategoryVC", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.addBackground()
     }
 
     override func didReceiveMemoryWarning() {
